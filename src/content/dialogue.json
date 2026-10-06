@@ -1,0 +1,701 @@
+{
+  "schemaVersion": "hiking.v4.dialogue.1",
+  "lines": [
+    {
+      "id": "D01",
+      "chapterId": "Z01",
+      "trigger": "trail_started",
+      "text": "Alright, let's do this!",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R01",
+          "t": 0.1
+        },
+        "end": {
+          "segmentId": "R02",
+          "t": 0.02
+        },
+        "anchor": {
+          "segmentId": "R01",
+          "t": 0.64,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D02",
+      "chapterId": "Z01",
+      "trigger": "tutorial_log_approach",
+      "text": "One small obstacle... not sure if my knees can keep up with jumping.",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R02",
+          "t": 0.04
+        },
+        "end": {
+          "segmentId": "R02",
+          "t": 0.94
+        },
+        "anchor": {
+          "segmentId": "R02",
+          "t": 0.62,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -90
+      }
+    },
+    {
+      "id": "D04",
+      "chapterId": "Z02",
+      "trigger": "first_scenic_reveal",
+      "text": "Damn, what a view",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R07",
+          "t": 0
+        },
+        "end": {
+          "segmentId": "R07",
+          "t": 0.62
+        },
+        "anchor": {
+          "segmentId": "R07",
+          "t": 0.35,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D06",
+      "chapterId": "Z02",
+      "trigger": "sustained_uphill",
+      "text": "It's starting to climb. Come on, legs!",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R09",
+          "t": 0.08
+        },
+        "end": {
+          "segmentId": "R09",
+          "t": 0.72
+        },
+        "anchor": {
+          "segmentId": "R09",
+          "t": 0.35,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D07",
+      "chapterId": "Z02",
+      "trigger": "before_memory_M02",
+      "text": "Wait. Photo first.",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R09",
+          "t": 0.72
+        },
+        "end": {
+          "segmentId": "R10",
+          "t": 0.35
+        },
+        "anchor": {
+          "segmentId": "R10",
+          "t": 0.12,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D08",
+      "chapterId": "Z03",
+      "trigger": "rocky_entry",
+      "text": "One careful step at a time.",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R12",
+          "t": 0
+        },
+        "end": {
+          "segmentId": "R13",
+          "t": 0.45
+        },
+        "anchor": {
+          "segmentId": "R12",
+          "t": 0.6,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D09",
+      "chapterId": "Z03",
+      "trigger": "technical_gap_cleared",
+      "text": "That looked wider from back there.",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R14",
+          "t": 0
+        },
+        "end": {
+          "segmentId": "R15",
+          "t": 0.18
+        },
+        "anchor": {
+          "segmentId": "R14",
+          "t": 0.55,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D11",
+      "chapterId": "Z03",
+      "trigger": "push_zone_entered",
+      "text": "Maybe I should have chosen an easier route...",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R04",
+          "t": 0.52
+        },
+        "end": {
+          "segmentId": "R05",
+          "t": 0.5
+        },
+        "anchor": {
+          "segmentId": "R04",
+          "t": 0.92,
+          "yOffsetDu": -230
+        },
+        "mobileAnchorYOffsetDu": -70
+      }
+    },
+    {
+      "id": "D12",
+      "chapterId": "Z04",
+      "trigger": "ferrata_approach",
+      "text": "Yes, a via ferrata! I love those!",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R16",
+          "t": 0.5
+        },
+        "end": {
+          "segmentId": "VF_PATH",
+          "t": 0.08
+        },
+        "anchor": {
+          "segmentId": "R17",
+          "t": 0.2,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D13",
+      "chapterId": "Z04",
+      "trigger": "first_clip_wait",
+      "text": "Press E to CLIP before moving.",
+      "channel": "system",
+      "oncePerRun": false,
+      "priority": 90,
+      "minSecondsSinceOtherAmbient": 7.5,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "touchText": "Tap CLIP before moving."
+    },
+    {
+      "id": "D14",
+      "chapterId": "Z04",
+      "trigger": "clip_completed",
+      "text": "Clipped. Keep going.",
+      "channel": "system",
+      "oncePerRun": false,
+      "priority": 90,
+      "minSecondsSinceOtherAmbient": 7.5,
+      "maxVisibleSeconds": 1.2,
+      "blockGameplay": false
+    },
+    {
+      "id": "D15",
+      "chapterId": "Z04",
+      "trigger": "ferrata_after_second_clip",
+      "text": "Definitely not just a walk now.",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "VF_PATH",
+          "t": 0.4
+        },
+        "end": {
+          "segmentId": "VF_PATH",
+          "t": 0.9
+        },
+        "anchor": {
+          "segmentId": "VF_PATH",
+          "t": 0.58,
+          "yOffsetDu": -120
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D16",
+      "chapterId": "Z04",
+      "trigger": "ferrata_exit",
+      "text": "Good. A bit of solid ground.",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R18",
+          "t": 0
+        },
+        "end": {
+          "segmentId": "R19",
+          "t": 0.35
+        },
+        "anchor": {
+          "segmentId": "R18",
+          "t": 0.6,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D17",
+      "chapterId": "Z05",
+      "trigger": "wall_entry",
+      "text": "Follow the dots. Easy enough... right?",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R19",
+          "t": 0.35
+        },
+        "end": {
+          "segmentId": "CL_PATH",
+          "t": 0.2
+        },
+        "anchor": {
+          "segmentId": "R19",
+          "t": 0.8,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D18",
+      "chapterId": "Z05",
+      "trigger": "wall_controls",
+      "text": "Use the directions to stay close to the marked route.",
+      "channel": "system",
+      "oncePerRun": true,
+      "priority": 90,
+      "minSecondsSinceOtherAmbient": 7.5,
+      "maxVisibleSeconds": 4.5,
+      "blockGameplay": false,
+      "touchText": "Use the four direction buttons to follow the dots."
+    },
+    {
+      "id": "D19",
+      "chapterId": "Z05",
+      "trigger": "wall_near_boundary",
+      "text": "A little closer to the route.",
+      "channel": "system",
+      "oncePerRun": false,
+      "priority": 90,
+      "minSecondsSinceOtherAmbient": 7.5,
+      "maxVisibleSeconds": 4,
+      "blockGameplay": false,
+      "minRepeatSeconds": 3
+    },
+    {
+      "id": "D20",
+      "chapterId": "Z05",
+      "trigger": "wall_failure",
+      "text": "Missed the route. Try again.",
+      "channel": "system",
+      "oncePerRun": false,
+      "priority": 90,
+      "minSecondsSinceOtherAmbient": 7.5,
+      "maxVisibleSeconds": 1.2,
+      "blockGameplay": false
+    },
+    {
+      "id": "D21",
+      "chapterId": "Z05",
+      "trigger": "wall_exit",
+      "text": "Good. Back to using mostly my legs.",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R20",
+          "t": 0
+        },
+        "end": {
+          "segmentId": "R20",
+          "t": 1
+        },
+        "anchor": {
+          "segmentId": "R20",
+          "t": 0.5,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D23",
+      "chapterId": "Z06",
+      "trigger": "first_frost",
+      "text": "It's getting colder. Why didn't I bring my jacket?",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R24",
+          "t": 0.25
+        },
+        "end": {
+          "segmentId": "R25",
+          "t": 1
+        },
+        "anchor": {
+          "segmentId": "R24",
+          "t": 0.68,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D24",
+      "chapterId": "Z07",
+      "trigger": "first_deep_snow",
+      "text": "Wasn't expecting all this snow.",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R26",
+          "t": 0
+        },
+        "end": {
+          "segmentId": "R26",
+          "t": 0.6
+        },
+        "anchor": {
+          "segmentId": "R26",
+          "t": 0.34,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D25",
+      "chapterId": "Z07",
+      "trigger": "second_deep_snow",
+      "text": "Every step weighs twice as much.",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R26",
+          "t": 0.6
+        },
+        "end": {
+          "segmentId": "R27",
+          "t": 1
+        },
+        "anchor": {
+          "segmentId": "R27",
+          "t": 0.25,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D27",
+      "chapterId": "Z07",
+      "trigger": "snow_lake_view",
+      "text": "The view is doing most of the motivating.",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R28",
+          "t": 0.7
+        },
+        "end": {
+          "segmentId": "R29",
+          "t": 0.45
+        },
+        "anchor": {
+          "segmentId": "R29",
+          "t": 0.15,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D30",
+      "chapterId": "Z08",
+      "trigger": "ice_approach",
+      "text": "Slippery ice! Let's move carefully now.",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R30",
+          "t": 0.65
+        },
+        "end": {
+          "segmentId": "R32",
+          "t": 0.65
+        },
+        "anchor": {
+          "segmentId": "R31",
+          "t": 0.44,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D31",
+      "chapterId": "Z08",
+      "trigger": "ice_countersteer_success",
+      "text": "Slowly, very slowlyyyy!!",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R32",
+          "t": 0.65
+        },
+        "end": {
+          "segmentId": "R34",
+          "t": 0.7
+        },
+        "anchor": {
+          "segmentId": "R33",
+          "t": 0.5,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D32",
+      "chapterId": "Z08",
+      "trigger": "ice_exit",
+      "text": "That was a close one!",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R35",
+          "t": 0
+        },
+        "end": {
+          "segmentId": "R35",
+          "t": 1
+        },
+        "anchor": {
+          "segmentId": "R35",
+          "t": 0.45,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D33",
+      "chapterId": "Z09",
+      "trigger": "final_ascent_approach",
+      "text": "Please let that be the actual summit.",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R41",
+          "t": 0.15
+        },
+        "end": {
+          "segmentId": "R42",
+          "t": 0.25
+        },
+        "anchor": {
+          "segmentId": "R41",
+          "t": 0.82,
+          "yOffsetDu": -230
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D34",
+      "chapterId": "Z09",
+      "trigger": "final_push",
+      "text": "Come on. Almost there.",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R38",
+          "t": 0
+        },
+        "end": {
+          "segmentId": "R38",
+          "t": 1
+        },
+        "anchor": {
+          "segmentId": "R38",
+          "t": 0.5,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D35",
+      "chapterId": "Z09",
+      "trigger": "safe_rest_shelf",
+      "text": "Ahhh... my knee.",
+      "channel": "ambient",
+      "oncePerRun": true,
+      "priority": 50,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false,
+      "worldZone": {
+        "start": {
+          "segmentId": "R39",
+          "t": 0
+        },
+        "end": {
+          "segmentId": "R40",
+          "t": 0.3
+        },
+        "anchor": {
+          "segmentId": "R39",
+          "t": 0.6,
+          "yOffsetDu": -270
+        },
+        "mobileAnchorYOffsetDu": -20
+      }
+    },
+    {
+      "id": "D37",
+      "chapterId": "Z10",
+      "trigger": "summit_contemplation",
+      "text": "YES! I MADE IT!",
+      "channel": "summit",
+      "oncePerRun": true,
+      "priority": 90,
+      "minSecondsSinceOtherAmbient": 7.5,
+      "maxVisibleSeconds": null,
+      "blockGameplay": false
+    }
+  ]
+}

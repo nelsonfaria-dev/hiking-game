@@ -1,0 +1,18 @@
+{
+  "version": "hiking-v5.0",
+  "ice": {
+    "edgeSegmentId": "R34",
+    "downhillAcceleration": 450,
+    "speedCap": 900,
+    "exponentialGrowthPerSecond": 0.4,
+    "reverseBrake": 420
+  },
+  "photoMomentIds": ["P06"],
+  "summitPhotoCameraAnchor": 0.9,
+  "finalAscent": {
+    "segmentId": "R42",
+    "slopeDegrees": 45.5,
+    "pushZoneId": "PU03",
+    "restInsetDu": 30
+  }
+}

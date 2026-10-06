@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "hiking.v4.photos.1",
+  "photos": [
+    {
+      "id": "P01",
+      "sourceFile": "IMG-20240810-WA0043(1).jpg",
+      "width": 922,
+      "height": 2048,
+      "orientation": "portrait",
+      "memoryId": "M01"
+    },
+    {
+      "id": "P02",
+      "sourceFile": "IMG-20240806-WA0073(1).jpg",
+      "width": 923,
+      "height": 2048,
+      "orientation": "portrait",
+      "memoryId": "M02"
+    },
+    {
+      "id": "P04",
+      "sourceFile": "IMG-20240810-WA0023(1).jpg",
+      "width": 2048,
+      "height": 922,
+      "orientation": "landscape",
+      "memoryId": "M03"
+    },
+    {
+      "id": "P05",
+      "sourceFile": "IMG-20240806-WA0061(1).jpg",
+      "width": 923,
+      "height": 2048,
+      "orientation": "portrait",
+      "memoryId": "M03"
+    },
+    {
+      "id": "P06",
+      "sourceFile": "20220704_095237(1).jpg",
+      "width": 2048,
+      "height": 1153,
+      "orientation": "landscape",
+      "memoryId": "M02"
+    },
+    {
+      "id": "P07",
+      "sourceFile": "IMG-20240807-WA0046(1).jpg",
+      "width": 922,
+      "height": 2048,
+      "orientation": "portrait",
+      "memoryId": "M04"
+    },
+    {
+      "id": "P08",
+      "sourceFile": "20240806_131302(1).jpg",
+      "width": 1153,
+      "height": 2048,
+      "orientation": "portrait",
+      "memoryId": "M04"
+    },
+    {
+      "id": "P09",
+      "sourceFile": "Screenshot_20260310_230836_Gallery(1).jpg",
+      "width": 1064,
+      "height": 1809,
+      "orientation": "portrait",
+      "memoryId": "M05"
+    },
+    {
+      "id": "P11",
+      "sourceFile": "20220515_145924(1).jpg",
+      "width": 2048,
+      "height": 1153,
+      "orientation": "landscape",
+      "memoryId": "M05"
+    },
+    {
+      "id": "P14",
+      "sourceFile": "20220704_140212(1).jpg",
+      "width": 2048,
+      "height": 1153,
+      "orientation": "landscape",
+      "memoryId": "M06"
+    },
+    {
+      "id": "P16",
+      "sourceFile": "snow-entry.png",
+      "width": 968,
+      "height": 1624,
+      "orientation": "portrait",
+      "memoryId": "M05"
+    },
+    {
+      "id": "P17",
+      "sourceFile": "IMG_20260608_163649.jpg",
+      "width": 4032,
+      "height": 2268,
+      "orientation": "landscape",
+      "memoryId": "M06"
+    },
+    {
+      "id": "P18",
+      "sourceFile": "IMG_20260623_152640.jpg",
+      "width": 3024,
+      "height": 4032,
+      "orientation": "portrait",
+      "memoryId": "M06"
+    }
+  ],
+  "groups": [
+    {
+      "id": "M01",
+      "title": "Forest trail",
+      "chapterId": "Z01",
+      "photoIds": ["P01"],
+      "triggerSurfaceId": "R05",
+      "triggerX": 1680,
+      "triggerType": "safe_surface_crossing",
+      "safeAnchor": [1740, 745],
+      "autoRevealSeconds": 6.5
+    },
+    {
+      "id": "M02",
+      "title": "The trail opens up",
+      "chapterId": "Z02",
+      "photoIds": ["P02", "P06"],
+      "triggerSurfaceId": "R10",
+      "triggerX": 3570,
+      "triggerType": "safe_surface_crossing",
+      "safeAnchor": [3640, 390],
+      "autoRevealSeconds": 8.5
+    },
+    {
+      "id": "M03",
+      "title": "Rock and water",
+      "chapterId": "Z03",
+      "photoIds": ["P05", "P04"],
+      "triggerSurfaceId": "R16",
+      "triggerX": 5330,
+      "triggerType": "safe_surface_crossing",
+      "safeAnchor": [5380, 70],
+      "autoRevealSeconds": 7.5
+    },
+    {
+      "id": "M04",
+      "title": "The technical section",
+      "chapterId": "Z04",
+      "photoIds": ["P07", "P08"],
+      "triggerSurfaceId": "R18",
+      "triggerX": 6450,
+      "triggerType": "ferrata_complete_and_safe_landing",
+      "safeAnchor": [6500, -790],
+      "autoRevealSeconds": 7.5
+    },
+    {
+      "id": "M05",
+      "title": "Snow, ice and careful steps",
+      "chapterId": "Z07",
+      "photoIds": ["P09", "P16", "P11"],
+      "triggerSurfaceId": "R29",
+      "triggerX": 9750,
+      "triggerType": "safe_surface_crossing",
+      "safeAnchor": [9830, -2010],
+      "autoRevealSeconds": 9.5
+    },
+    {
+      "id": "M06",
+      "title": "The view at the top",
+      "chapterId": "Z10",
+      "photoIds": ["P14", "P17", "P18"],
+      "triggerSurfaceId": "R43",
+      "triggerX": 14470,
+      "triggerType": "summit_reached_unlock_then_post_reveal",
+      "safeAnchor": [14590, -2800],
+      "autoRevealSeconds": 8.5,
+      "presentation": "summit"
+    }
+  ]
+}

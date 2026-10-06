@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 2,
+  "slots": [
+    {
+      "id": "background.panorama",
+      "materialId": "BG01",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": false
+    },
+    {
+      "id": "background.midground",
+      "materialId": "BG02",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": true
+    },
+    {
+      "id": "terrain.rock_fill",
+      "materialId": "TX01",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": false
+    },
+    {
+      "id": "terrain.dirt_top",
+      "materialId": "TX02",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": true
+    },
+    {
+      "id": "terrain.rock_top",
+      "materialId": "TX03",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": true
+    },
+    {
+      "id": "terrain.ice_surface",
+      "materialId": "TX04",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": false
+    },
+    {
+      "id": "terrain.snow_lip",
+      "materialId": "TX05",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": true
+    },
+    {
+      "id": "terrain.snow_fill",
+      "materialId": "TX06",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": false
+    },
+    {
+      "id": "summit.landmark",
+      "materialId": "SM01",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": true
+    },
+    {
+      "id": "summit.portugal_flag",
+      "materialId": "SM02",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": true
+    },
+    {
+      "id": "player.summit_flag_plant",
+      "materialId": "CH01",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": true
+    },
+    {
+      "id": "player.summit_back_idle",
+      "materialId": "CH02",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": true
+    },
+    {
+      "id": "memory.forest",
+      "materialId": "PH01",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": false
+    },
+    {
+      "id": "memory.rocky",
+      "materialId": "PH02",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": false
+    },
+    {
+      "id": "memory.snow",
+      "materialId": "PH03",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": false
+    },
+    {
+      "id": "memory.summit",
+      "materialId": "PH04",
+      "src": null,
+      "approval": "missing",
+      "nativeSize": null,
+      "worldSize": null,
+      "anchor": null,
+      "alphaRequired": false
+    }
+  ]
+}

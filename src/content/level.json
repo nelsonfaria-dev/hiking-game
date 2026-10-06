@@ -1,0 +1,861 @@
+{
+  "schemaVersion": "hiking.v4.route.1",
+  "targetActiveTraversalSeconds": [135, 165],
+  "nominalChapterSecondsTotal": 150,
+  "excludeFromActiveTime": [
+    "manual_pause",
+    "gallery_pause",
+    "hidden_tab",
+    "intro",
+    "summit_cinematic"
+  ],
+  "includeInActiveTime": [
+    "clip_wait",
+    "wall_climb",
+    "effort_recovery",
+    "failed_attempt_until_respawn"
+  ],
+  "nominalWorldBounds": {
+    "minX": -500,
+    "maxX": 15400,
+    "minY": -3350,
+    "maxY": 1500
+  },
+  "summitAltitudeM": 2499,
+  "altitudeIsIllustrativeNotPhotoMetadata": true,
+  "zones": [
+    {
+      "id": "Z01",
+      "title": "Forest trail",
+      "targetTraversalSeconds": 18,
+      "progressWeight": 18,
+      "progressFrom": 0,
+      "progressTo": 0.12,
+      "orderedSegmentIds": ["R01", "R02", "R03", "R04", "G01", "R05", "R06"],
+      "biome": "lush_forest",
+      "memoryId": "M01"
+    },
+    {
+      "id": "Z02",
+      "title": "The trail opens up",
+      "targetTraversalSeconds": 20,
+      "progressWeight": 20,
+      "progressFrom": 0.12,
+      "progressTo": 0.253333,
+      "orderedSegmentIds": ["R07", "R08", "R09", "R10", "R11"],
+      "biome": "alpine_meadow",
+      "memoryId": "M02"
+    },
+    {
+      "id": "Z03",
+      "title": "Rocky approach",
+      "targetTraversalSeconds": 18,
+      "progressWeight": 18,
+      "progressFrom": 0.253333,
+      "progressTo": 0.373333,
+      "orderedSegmentIds": [
+        "R12",
+        "R13",
+        "G02",
+        "R14",
+        "R15",
+        "G03",
+        "R16",
+        "R17"
+      ],
+      "biome": "exposed_rock",
+      "memoryId": "M03"
+    },
+    {
+      "id": "Z04",
+      "title": "Via ferrata",
+      "targetTraversalSeconds": 17,
+      "progressWeight": 17,
+      "progressFrom": 0.373333,
+      "progressTo": 0.486667,
+      "orderedSegmentIds": ["R17A", "VF_PATH", "R18", "R19"],
+      "biome": "rock_wall_equipped",
+      "memoryId": "M04"
+    },
+    {
+      "id": "Z05",
+      "title": "The climbing wall",
+      "targetTraversalSeconds": 14,
+      "progressWeight": 14,
+      "progressFrom": 0.486667,
+      "progressTo": 0.58,
+      "orderedSegmentIds": ["CL_PATH", "R20"],
+      "biome": "rock_wall_marked",
+      "memoryId": null
+    },
+    {
+      "id": "Z06",
+      "title": "Boulder field",
+      "targetTraversalSeconds": 10,
+      "progressWeight": 10,
+      "progressFrom": 0.58,
+      "progressTo": 0.646667,
+      "orderedSegmentIds": ["R21", "R22", "G04", "R23", "R24", "R25"],
+      "biome": "cold_rock_transition",
+      "memoryId": null
+    },
+    {
+      "id": "Z07",
+      "title": "Snow and high alpine",
+      "targetTraversalSeconds": 16,
+      "progressWeight": 16,
+      "progressFrom": 0.646667,
+      "progressTo": 0.753333,
+      "orderedSegmentIds": ["R26", "R27", "R28", "R29", "R30"],
+      "biome": "persistent_snow",
+      "memoryId": "M05"
+    },
+    {
+      "id": "Z08",
+      "title": "The ice crossing",
+      "targetTraversalSeconds": 13,
+      "progressWeight": 13,
+      "progressFrom": 0.753333,
+      "progressTo": 0.84,
+      "orderedSegmentIds": ["R31", "R32", "R33", "R34", "G05", "R35"],
+      "biome": "snow_ice",
+      "memoryId": null
+    },
+    {
+      "id": "Z09",
+      "title": "The final ridge",
+      "targetTraversalSeconds": 20,
+      "progressWeight": 20,
+      "progressFrom": 0.84,
+      "progressTo": 0.973333,
+      "orderedSegmentIds": [
+        "R36",
+        "R37",
+        "R38",
+        "R39",
+        "R40",
+        "G06",
+        "R41",
+        "R42"
+      ],
+      "biome": "persistent_snow",
+      "memoryId": null
+    },
+    {
+      "id": "Z10",
+      "title": "Summit",
+      "targetTraversalSeconds": 4,
+      "progressWeight": 4,
+      "progressFrom": 0.973333,
+      "progressTo": 1,
+      "orderedSegmentIds": ["R43"],
+      "biome": "summit_snow",
+      "memoryId": "M06"
+    }
+  ],
+  "segments": [
+    {
+      "id": "R01",
+      "kind": "ground",
+      "from": [0, 900],
+      "to": [450, 900],
+      "chapterId": "Z01",
+      "surface": "grass",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Spawn estável e primeiras árvores; avatar visível antes de Start."
+    },
+    {
+      "id": "R02",
+      "kind": "ground",
+      "from": [450, 900],
+      "to": [880, 830],
+      "chapterId": "Z01",
+      "surface": "grass",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Inclinação leve; tronco tutorial L01."
+    },
+    {
+      "id": "R03",
+      "kind": "ground",
+      "from": [880, 830],
+      "to": [1120, 830],
+      "chapterId": "Z01",
+      "surface": "grass",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Patamar e rocha baixa O02."
+    },
+    {
+      "id": "R04",
+      "kind": "ground",
+      "from": [1120, 830],
+      "to": [1470, 760],
+      "chapterId": "Z01",
+      "surface": "grass",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Aproximação visual limpa ao primeiro gap."
+    },
+    {
+      "id": "G01",
+      "kind": "gap",
+      "from": [1470, 760],
+      "to": [1580, 745],
+      "chapterId": "Z01",
+      "difficulty": "tutorial",
+      "nominalOnly": true,
+      "renderContinuousBodyAcrossGap": false
+    },
+    {
+      "id": "R05",
+      "kind": "ground",
+      "from": [1580, 745],
+      "to": [1770, 745],
+      "chapterId": "Z01",
+      "surface": "grass",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Aterragem larga, checkpoint principal CP01 e memória M01."
+    },
+    {
+      "id": "R06",
+      "kind": "ground",
+      "from": [1770, 745],
+      "to": [1900, 745],
+      "chapterId": "Z01",
+      "surface": "grass",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Saída gradual da floresta."
+    },
+    {
+      "id": "R07",
+      "kind": "ground",
+      "from": [1900, 745],
+      "to": [2500, 600],
+      "chapterId": "Z02",
+      "surface": "grass",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Prado a abrir, árvores menos densas e início de esforço."
+    },
+    {
+      "id": "R08",
+      "kind": "ground",
+      "from": [2500, 600],
+      "to": [2880, 600],
+      "chapterId": "Z02",
+      "surface": "grass",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Primeiro miradouro sem bloqueio."
+    },
+    {
+      "id": "R09",
+      "kind": "ground",
+      "from": [2880, 600],
+      "to": [3480, 390],
+      "chapterId": "Z02",
+      "surface": "grass",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Subida sustentada; esforço fora de PUSH."
+    },
+    {
+      "id": "R10",
+      "kind": "ground",
+      "from": [3480, 390],
+      "to": [3750, 390],
+      "chapterId": "Z02",
+      "surface": "grass",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Miradouro seguro; três polaroids M02 lado a lado."
+    },
+    {
+      "id": "R11",
+      "kind": "ground",
+      "from": [3750, 390],
+      "to": [3850, 360],
+      "chapterId": "Z02",
+      "surface": "dirt_to_rock",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Única transição prado-rocha desta fronteira."
+    },
+    {
+      "id": "R12",
+      "kind": "ground",
+      "from": [3850, 360],
+      "to": [4240, 250],
+      "chapterId": "Z03",
+      "surface": "rock",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Aproximação alpina; paredões e lago distante ilustrado."
+    },
+    {
+      "id": "R13",
+      "kind": "ground",
+      "from": [4240, 250],
+      "to": [4500, 250],
+      "chapterId": "Z03",
+      "surface": "rock",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Rocha-obstáculo O03 e aproximação ao gap técnico."
+    },
+    {
+      "id": "G02",
+      "kind": "gap",
+      "from": [4500, 250],
+      "to": [4630, 230],
+      "chapterId": "Z03",
+      "difficulty": "medium",
+      "nominalOnly": true,
+      "renderContinuousBodyAcrossGap": false
+    },
+    {
+      "id": "R14",
+      "kind": "ground",
+      "from": [4630, 230],
+      "to": [4790, 230],
+      "chapterId": "Z03",
+      "surface": "rock",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Aterragem sem objetos a tapar a extremidade."
+    },
+    {
+      "id": "R15",
+      "kind": "ground",
+      "from": [4790, 230],
+      "to": [5140, 80],
+      "chapterId": "Z03",
+      "surface": "rock",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Escadaria natural desenhada como superfície contínua inclinada."
+    },
+    {
+      "id": "G03",
+      "kind": "gap",
+      "from": [5140, 80],
+      "to": [5260, 70],
+      "chapterId": "Z03",
+      "difficulty": "medium",
+      "nominalOnly": true,
+      "renderContinuousBodyAcrossGap": false
+    },
+    {
+      "id": "R16",
+      "kind": "ground",
+      "from": [5260, 70],
+      "to": [5480, 70],
+      "chapterId": "Z03",
+      "surface": "rock",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Miradouro seguro CP02 e memória M03."
+    },
+    {
+      "id": "R17",
+      "kind": "ground",
+      "from": [5480, 70],
+      "to": [5750, -140],
+      "chapterId": "Z03",
+      "surface": "rock",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Rampa forte curta para a entrada equipada; PUSH com saída plana.",
+      "pushZoneId": "PU01"
+    },
+    {
+      "id": "R17A",
+      "kind": "ground",
+      "from": [5750, -140],
+      "to": [5870, -140],
+      "chapterId": "Z04",
+      "surface": "rock",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Patamar horizontal estável antes do primeiro CLIP; não avançar na via sem a ação inicial."
+    },
+    {
+      "id": "VF_PATH",
+      "kind": "via_ferrata",
+      "from": [5870, -140],
+      "to": [6400, -790],
+      "chapterId": "Z04",
+      "traversalConfig": "ferrata.json",
+      "renderAsWalkableRamp": false
+    },
+    {
+      "id": "R18",
+      "kind": "ground",
+      "from": [6400, -790],
+      "to": [6580, -790],
+      "chapterId": "Z04",
+      "surface": "rock",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Patamar após a terceira CLIP e fim da via; memória M04."
+    },
+    {
+      "id": "R19",
+      "kind": "ground",
+      "from": [6580, -790],
+      "to": [6750, -790],
+      "chapterId": "Z04",
+      "surface": "rock",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Aproximação segura à parede; checkpoint local antes da escalada."
+    },
+    {
+      "id": "CL_PATH",
+      "kind": "wall_climb",
+      "from": [6750, -790],
+      "to": [6925, -1520],
+      "chapterId": "Z05",
+      "traversalConfig": "climb.json",
+      "renderAsWalkableRamp": false
+    },
+    {
+      "id": "R20",
+      "kind": "ground",
+      "from": [6925, -1520],
+      "to": [7250, -1520],
+      "chapterId": "Z05",
+      "surface": "rock",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Saída superior e CP03; colisão do patamar prolonga-se para x=6870.",
+      "supportLeftX": 6870
+    },
+    {
+      "id": "R21",
+      "kind": "ground",
+      "from": [7250, -1520],
+      "to": [7580, -1600],
+      "chapterId": "Z06",
+      "surface": "rock",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Blocos de rocha, menos vegetação, início visual de frio."
+    },
+    {
+      "id": "R22",
+      "kind": "ground",
+      "from": [7580, -1600],
+      "to": [7840, -1600],
+      "chapterId": "Z06",
+      "surface": "rock",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Escolha de apoio entre blocos; aproximação ao salto curto."
+    },
+    {
+      "id": "G04",
+      "kind": "gap",
+      "from": [7840, -1600],
+      "to": [7935, -1620],
+      "chapterId": "Z06",
+      "difficulty": "easy",
+      "nominalOnly": true,
+      "renderContinuousBodyAcrossGap": false
+    },
+    {
+      "id": "R23",
+      "kind": "ground",
+      "from": [7935, -1620],
+      "to": [8120, -1620],
+      "chapterId": "Z06",
+      "surface": "rock",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Aterragem e estabilização após a escalada."
+    },
+    {
+      "id": "R24",
+      "kind": "ground",
+      "from": [8120, -1620],
+      "to": [8500, -1770],
+      "chapterId": "Z06",
+      "surface": "frosted_rock",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Neve pontual no topo das rochas, sem mudar corpo do terreno."
+    },
+    {
+      "id": "R25",
+      "kind": "ground",
+      "from": [8500, -1770],
+      "to": [8700, -1770],
+      "chapterId": "Z06",
+      "surface": "rock_to_snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Fronteira para neve persistente; depois não volta a relva."
+    },
+    {
+      "id": "R26",
+      "kind": "ground",
+      "from": [8700, -1770],
+      "to": [9060, -1870],
+      "chapterId": "Z07",
+      "surface": "snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Neve profunda localizada, visual opaco fixo no mundo.",
+      "deepSnowZones": [
+        {
+          "id": "SN01",
+          "xStart": 8800,
+          "xEnd": 9000,
+          "nominalDepthDu": 26
+        }
+      ]
+    },
+    {
+      "id": "R27",
+      "kind": "ground",
+      "from": [9060, -1870],
+      "to": [9230, -1870],
+      "chapterId": "Z07",
+      "surface": "snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Neve compacta para recuperar velocidade."
+    },
+    {
+      "id": "R28",
+      "kind": "ground",
+      "from": [9230, -1870],
+      "to": [9660, -2010],
+      "chapterId": "Z07",
+      "surface": "snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Segunda zona de neve profunda, curta.",
+      "deepSnowZones": [
+        {
+          "id": "SN02",
+          "xStart": 9320,
+          "xEnd": 9540,
+          "nominalDepthDu": 30
+        }
+      ]
+    },
+    {
+      "id": "R29",
+      "kind": "ground",
+      "from": [9660, -2010],
+      "to": [10000, -2010],
+      "chapterId": "Z07",
+      "surface": "snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Lago gelado distante e miradouro M05/CP04; quatro fotos lado a lado."
+    },
+    {
+      "id": "R30",
+      "kind": "ground",
+      "from": [10000, -2010],
+      "to": [10200, -2060],
+      "chapterId": "Z07",
+      "surface": "snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Aproximação legível ao gelo."
+    },
+    {
+      "id": "R31",
+      "kind": "ground",
+      "from": [10200, -2060],
+      "to": [10750, -2060],
+      "chapterId": "Z08",
+      "surface": "ice",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Faixa larga para experimentar aceleração e travagem; nenhum salto logo à entrada."
+    },
+    {
+      "id": "R32",
+      "kind": "ground",
+      "from": [10750, -2060],
+      "to": [11120, -1990],
+      "chapterId": "Z08",
+      "surface": "ice",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Descida moderada onde inércia fica evidente; corpo do terreno permanece escuro."
+    },
+    {
+      "id": "R33",
+      "kind": "ground",
+      "from": [11120, -1990],
+      "to": [11520, -1990],
+      "chapterId": "Z08",
+      "surface": "ice",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Travagem com distância suficiente antes da neve compacta."
+    },
+    {
+      "id": "R34",
+      "kind": "ground",
+      "from": [11520, -1990],
+      "to": [11770, -1990],
+      "chapterId": "Z08",
+      "surface": "snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Zona aderente para recuperar controlo antes de gap; neve e gelo ambos no bioma frio."
+    },
+    {
+      "id": "G05",
+      "kind": "gap",
+      "from": [11770, -1990],
+      "to": [11880, -2010],
+      "chapterId": "Z08",
+      "difficulty": "easy_after_braking",
+      "nominalOnly": true,
+      "renderContinuousBodyAcrossGap": false
+    },
+    {
+      "id": "R35",
+      "kind": "ground",
+      "from": [11880, -2010],
+      "to": [12100, -2010],
+      "chapterId": "Z08",
+      "surface": "snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Aterragem e CP05, último respiro antes da subida final."
+    },
+    {
+      "id": "R36",
+      "kind": "ground",
+      "from": [12100, -2010],
+      "to": [12600, -2220],
+      "chapterId": "Z09",
+      "surface": "snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Subida final com horizonte a abrir."
+    },
+    {
+      "id": "R37",
+      "kind": "ground",
+      "from": [12600, -2220],
+      "to": [12800, -2220],
+      "chapterId": "Z09",
+      "surface": "snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Patamar seguro para esforço alto."
+    },
+    {
+      "id": "R38",
+      "kind": "ground",
+      "from": [12800, -2220],
+      "to": [13320, -2550],
+      "chapterId": "Z09",
+      "surface": "snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Subida mais exigente, PUSH só enquanto há avanço.",
+      "pushZoneId": "PU02"
+    },
+    {
+      "id": "R39",
+      "kind": "ground",
+      "from": [13320, -2550],
+      "to": [13500, -2550],
+      "chapterId": "Z09",
+      "surface": "snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Recuperação sem fricção de gelo antes do último salto."
+    },
+    {
+      "id": "R40",
+      "kind": "ground",
+      "from": [13500, -2550],
+      "to": [13680, -2630],
+      "chapterId": "Z09",
+      "surface": "snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Última aproximação técnica, sem decoração a cobrir o bordo."
+    },
+    {
+      "id": "G06",
+      "kind": "gap",
+      "from": [13680, -2630],
+      "to": [13780, -2630],
+      "chapterId": "Z09",
+      "difficulty": "easy_when_tired",
+      "nominalOnly": true,
+      "renderContinuousBodyAcrossGap": false
+    },
+    {
+      "id": "R41",
+      "kind": "ground",
+      "from": [13780, -2630],
+      "to": [13950, -2630],
+      "chapterId": "Z09",
+      "surface": "snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Aterragem de segurança; cume já reconhecível."
+    },
+    {
+      "id": "R42",
+      "kind": "ground",
+      "from": [13950, -2630],
+      "to": [14280, -2800],
+      "chapterId": "Z09",
+      "surface": "snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Últimos passos cansados; nunca forçar derrota por esforço."
+    },
+    {
+      "id": "R43",
+      "kind": "ground",
+      "from": [14280, -2800],
+      "to": [14900, -2800],
+      "chapterId": "Z10",
+      "surface": "snow",
+      "bodyMaterial": "dark_rock_earth",
+      "purpose": "Patamar final largo com marco, bandeira e contemplação central."
+    }
+  ],
+  "routeOrder": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "G01",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "G02",
+    "R14",
+    "R15",
+    "G03",
+    "R16",
+    "R17",
+    "R17A",
+    "VF_PATH",
+    "R18",
+    "R19",
+    "CL_PATH",
+    "R20",
+    "R21",
+    "R22",
+    "G04",
+    "R23",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "G05",
+    "R35",
+    "R36",
+    "R37",
+    "R38",
+    "R39",
+    "R40",
+    "G06",
+    "R41",
+    "R42",
+    "R43"
+  ],
+  "checkpoints": [
+    {
+      "id": "CP00",
+      "surfaceId": "R01",
+      "position": [180, 900],
+      "kind": "start",
+      "publicMarker": false
+    },
+    {
+      "id": "CP01",
+      "surfaceId": "R05",
+      "position": [1690, 745],
+      "kind": "chapter",
+      "publicMarker": true
+    },
+    {
+      "id": "CP02",
+      "surfaceId": "R16",
+      "position": [5370, 70],
+      "kind": "chapter",
+      "publicMarker": true
+    },
+    {
+      "id": "CP_VF",
+      "surfaceId": "R17A",
+      "position": [5820, -140],
+      "kind": "local_recovery",
+      "publicMarker": false,
+      "note": "Resolve to safe start support before latching ferrata."
+    },
+    {
+      "id": "CP_CL",
+      "surfaceId": "R19",
+      "position": [6710, -790],
+      "kind": "local_recovery",
+      "publicMarker": false
+    },
+    {
+      "id": "CP03",
+      "surfaceId": "R20",
+      "position": [7100, -1520],
+      "kind": "chapter",
+      "publicMarker": true
+    },
+    {
+      "id": "CP04",
+      "surfaceId": "R29",
+      "position": [9830, -2010],
+      "kind": "chapter",
+      "publicMarker": true
+    },
+    {
+      "id": "CP05",
+      "surfaceId": "R35",
+      "position": [12000, -2010],
+      "kind": "chapter",
+      "publicMarker": true
+    }
+  ],
+  "obstacles": [
+    {
+      "id": "O01",
+      "surfaceId": "R02",
+      "x": 720,
+      "type": "fallen_log",
+      "heightDu": 18,
+      "widthDu": 78,
+      "collision": "low_obstacle",
+      "purpose": "Teach a safe jump without lethal gap."
+    },
+    {
+      "id": "O02",
+      "surfaceId": "R03",
+      "x": 1030,
+      "type": "low_rock",
+      "heightDu": 23,
+      "widthDu": 68,
+      "collision": "low_obstacle",
+      "purpose": "Second forgiving jump; maintain clear landing."
+    },
+    {
+      "id": "O03",
+      "surfaceId": "R13",
+      "x": 4330,
+      "type": "rock_step",
+      "heightDu": 30,
+      "widthDu": 76,
+      "collision": "low_obstacle",
+      "purpose": "Route reading before technical gap."
+    },
+    {
+      "id": "O04",
+      "surfaceId": "R22",
+      "x": 7680,
+      "type": "boulder_step",
+      "heightDu": 32,
+      "widthDu": 82,
+      "collision": "low_obstacle",
+      "purpose": "Short boulder traverse; tune collider to painted silhouette."
+    }
+  ],
+  "persistentSnowStartsAtSegmentId": "R26",
+  "summit": {
+    "surfaceId": "R43",
+    "triggerX": 14470,
+    "characterX": 14590,
+    "markerX": 14370,
+    "flagX": 14710,
+    "groundY": -2800,
+    "message": "YES! I MADE IT!",
+    "memoryId": "M06"
+  }
+}

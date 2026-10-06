@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "hiking.v4.1.memory-timeline.2",
+  "triggers": [
+    {
+      "photoId": "P01",
+      "memoryId": "M01",
+      "surfaceId": "R05",
+      "insetDu": 75
+    },
+    {
+      "photoId": "P02",
+      "memoryId": "M02",
+      "surfaceId": "R08",
+      "insetDu": 90
+    },
+    {
+      "photoId": "P06",
+      "memoryId": "M02",
+      "surfaceId": "R10",
+      "insetDu": 75
+    },
+    {
+      "photoId": "P05",
+      "memoryId": "M03",
+      "surfaceId": "R13",
+      "insetDu": 40
+    },
+    {
+      "photoId": "P04",
+      "memoryId": "M03",
+      "surfaceId": "R16",
+      "insetDu": 5,
+      "presentationZone": "pre_ferrata"
+    },
+    {
+      "photoId": "P07",
+      "memoryId": "M04",
+      "traversal": "ferrata",
+      "atProgress": 0.5,
+      "presentationZone": "mid_ferrata"
+    },
+    {
+      "photoId": "P08",
+      "memoryId": "M04",
+      "surfaceId": "R20",
+      "insetDu": 65,
+      "requires": "wallComplete"
+    },
+    {
+      "photoId": "P09",
+      "memoryId": "M05",
+      "surfaceId": "R24",
+      "insetDu": 12
+    },
+    {
+      "photoId": "P16",
+      "memoryId": "M05",
+      "surfaceId": "R27",
+      "insetDu": 25
+    },
+    {
+      "photoId": "P11",
+      "memoryId": "M05",
+      "surfaceId": "R30",
+      "insetDu": 60
+    },
+    {
+      "photoId": "P14",
+      "memoryId": "M06",
+      "after": "summit_choreography"
+    },
+    {
+      "photoId": "P17",
+      "memoryId": "M06",
+      "after": "summit_choreography"
+    },
+    {
+      "photoId": "P18",
+      "memoryId": "M06",
+      "after": "summit_choreography"
+    }
+  ]
+}

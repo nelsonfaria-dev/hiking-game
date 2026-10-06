@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "hiking.v4.climb.1",
+  "pathId": "CL_PATH",
+  "entry": [6750, -790],
+  "exit": [6925, -1520],
+  "wallBounds": {
+    "left": 6600,
+    "right": 7140,
+    "top": -1620,
+    "bottom": -730
+  },
+  "holds": [
+    {
+      "id": "CL_H00",
+      "x": 6750,
+      "y": -845
+    },
+    {
+      "id": "CL_H01",
+      "x": 6786,
+      "y": -913
+    },
+    {
+      "id": "CL_H02",
+      "x": 6836,
+      "y": -985
+    },
+    {
+      "id": "CL_H03",
+      "x": 6800,
+      "y": -1055
+    },
+    {
+      "id": "CL_H04",
+      "x": 6760,
+      "y": -1125
+    },
+    {
+      "id": "CL_H05",
+      "x": 6805,
+      "y": -1195
+    },
+    {
+      "id": "CL_H06",
+      "x": 6850,
+      "y": -1270
+    },
+    {
+      "id": "CL_H07",
+      "x": 6812,
+      "y": -1345
+    },
+    {
+      "id": "CL_H08",
+      "x": 6860,
+      "y": -1430
+    },
+    {
+      "id": "CL_H09",
+      "x": 6900,
+      "y": -1500
+    },
+    {
+      "id": "CL_H10",
+      "x": 6925,
+      "y": -1575
+    }
+  ],
+  "controlAnchor": "torso_anchor_55du_above_feet",
+  "controlAnchorOffsetFromFeetDu": [0, -55],
+  "routeEndpointCoordinates": "feet_baseline",
+  "guide": "allHoldCentersAndConnectingDottedRouteVisibleInCamera",
+  "selectionPuzzle": false,
+  "safeHoldLottery": false,
+  "control": "continuous_x_y_manual",
+  "corridor": {
+    "kind": "horizontal_offset_from_piecewise_linear_x_at_y",
+    "halfWidthDu": 48,
+    "warningFraction": 0.8,
+    "failureDebounceSeconds": 0.16,
+    "teleportBackInside": false,
+    "clampBeforeFailure": false
+  },
+  "motion": {
+    "nominalSpeedDuPerSecond": 80,
+    "normalizeDiagonal": true,
+    "autoAscend": false,
+    "stoppingIsAllowed": true,
+    "jumpDisabledWhileAttached": true,
+    "gravityDisabledWhileAttached": true,
+    "gravityRestoredDuringFall": true
+  },
+  "death": {
+    "trigger": "outside_visible_corridor_beyond_tolerance",
+    "graphic": false,
+    "incrementCounterOnce": true,
+    "respawnId": "CP_CL",
+    "resetFerrata": false,
+    "resetMemories": false,
+    "nominalTotalSeconds": 1.05,
+    "livesSystem": false,
+    "gameOverScreen": false
+  },
+  "entryRequires": "ferrata_complete",
+  "exitRequires": [
+    "lastHoldReached",
+    "nearExitHeight",
+    "insideExitCorridor",
+    "landingAvailable"
+  ],
+  "checkpoints": {
+    "before": "CP_CL",
+    "after": "CP03"
+  },
+  "art": {
+    "plainRockWall": true,
+    "cableRequired": false,
+    "dotsForRoute": true,
+    "newAnimationSlot": "wallClimb"
+  }
+}

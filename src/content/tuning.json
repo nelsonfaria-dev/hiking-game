@@ -1,0 +1,42 @@
+{
+  "effort": {
+    "initial": 10,
+    "uphillCurveDegreesAndPointsPerSecond": [
+      [0, 0.3],
+      [5, 1],
+      [12, 3],
+      [20, 5.5],
+      [30, 8],
+      [38, 9.5]
+    ],
+    "materialAdditivePointsPerSecond": {
+      "dirt": 0,
+      "rock": 0,
+      "scree": 0.7,
+      "snow_compacted": 0.45,
+      "snow_deep": 1.6,
+      "ice": 0
+    },
+    "pushAdvancingBonusPerSecond": 1.2,
+    "acceptedJumpCost": 3,
+    "acceptedPushPulseCost": 0.2,
+    "voluntaryRestRecoveryPerSecond": 7,
+    "dryDownhillRecoveryPerSecond": 2.5,
+    "deepSnowDownhillGainPerSecond": 0.8,
+    "exhaustion": {
+      "minimumSeconds": 1.8,
+      "recoveryPerSecond": 19,
+      "resumeAtOrBelow": 62
+    }
+  },
+  "deepSnow": {
+    "speedMultiplier": 0.62,
+    "accelerationMultiplier": 0.72,
+    "visualDepthFractionOfStandingHeight": 0.24,
+    "transitionSeconds": 0.18
+  },
+  "speech": {
+    "globalCooldownSeconds": 8,
+    "candidateTtlSeconds": 4
+  }
+}

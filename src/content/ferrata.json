@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "hiking.v4.ferrata.1",
+  "pathId": "VF_PATH",
+  "pathPoints": [
+    [5870, -140],
+    [5960, -215],
+    [6050, -350],
+    [6130, -460],
+    [6230, -590],
+    [6330, -700],
+    [6400, -790]
+  ],
+  "nominalPathLengthDu": 842.109,
+  "guideMode": "constrained_arclength_traversal",
+  "clipGates": [
+    {
+      "id": "VF_CLIP_01",
+      "normalizedPathDistance": 0,
+      "position": [5870, -140],
+      "label": "CLIP",
+      "startsVisible": true
+    },
+    {
+      "id": "VF_CLIP_02",
+      "normalizedPathDistance": 0.38,
+      "position": [6073.878, -382.833],
+      "label": "CLIP",
+      "startsVisible": false
+    },
+    {
+      "id": "VF_CLIP_03",
+      "normalizedPathDistance": 0.68,
+      "position": [6225.856, -584.613],
+      "label": "CLIP",
+      "startsVisible": false
+    }
+  ],
+  "requiredClipCount": 3,
+  "exitRequiresAllThree": true,
+  "extraExitClip": false,
+  "clipInput": {
+    "keyboard": "E",
+    "touchLabel": "CLIP",
+    "freshPressRequired": true,
+    "autoRepeatCounts": false,
+    "heldFromPriorPushCounts": false,
+    "nominalAnimationSeconds": 0.42,
+    "timeoutSeconds": null
+  },
+  "travel": {
+    "nominalSpeedDuPerSecond": 90,
+    "backwardAllowedWithinLatchedSection": true,
+    "ascendingKeys": ["D", "ArrowRight", "W", "ArrowUp"],
+    "descendingKeys": ["A", "ArrowLeft", "S", "ArrowDown"],
+    "spaceDetaches": false
+  },
+  "entry": {
+    "recoveryId": "CP_VF",
+    "stableSupportBeforeLatch": true,
+    "promptImmediatelyOnModeEnter": true
+  },
+  "exit": {
+    "surfaceId": "R18",
+    "memoryId": "M04",
+    "noFourthGate": true
+  },
+  "art": {
+    "wallBehindCharacter": true,
+    "cableVisible": true,
+    "decorativeBoltsDoNotCreateGates": true,
+    "characterAnimationSlot": "ferrataTraverse",
+    "fallback": "existingHighQualityPushSprite",
+    "fallbackIsFinalApprovedArt": false
+  }
+}

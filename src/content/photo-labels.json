@@ -1,0 +1,82 @@
+{
+  "photos": {
+    "P01": {
+      "sourceFile": "IMG-20240810-WA0043(1).jpg",
+      "caption": "Triglav, Slovenia (2024)",
+      "placeYear": "",
+      "alt": "A hiker with a cap and a walking pole on a steep green trail among conifers."
+    },
+    "P02": {
+      "sourceFile": "IMG-20240806-WA0073(1).jpg",
+      "caption": "Dolomites, Italy (2024)",
+      "placeYear": "",
+      "alt": "A hiker approaching along a pale path through green alpine meadows."
+    },
+    "P04": {
+      "sourceFile": "IMG-20240810-WA0023(1).jpg",
+      "caption": "Sainte-Agnès, France (2024)",
+      "placeYear": "",
+      "alt": "A small hiker on a grassy mountainside overlooking distant ridges."
+    },
+    "P05": {
+      "sourceFile": "IMG-20240806-WA0061(1).jpg",
+      "caption": "Laghi dei Piani, Italy (2024)",
+      "placeYear": "",
+      "alt": "A hiker beside a rocky trail and a small alpine lake beneath high cliffs."
+    },
+    "P06": {
+      "sourceFile": "20220704_095237(1).jpg",
+      "caption": "Czarny Staw, Poland (2022)",
+      "placeYear": "",
+      "alt": "A clear mountain lake reflecting green slopes and rocky peaks."
+    },
+    "P07": {
+      "sourceFile": "IMG-20240807-WA0046(1).jpg",
+      "caption": "Cascate di Fanes, Italy (2024)",
+      "placeYear": "",
+      "alt": "A hiker using a fixed metal aid on a narrow trail beside a rock wall."
+    },
+    "P08": {
+      "sourceFile": "20240806_131302(1).jpg",
+      "caption": "Tre Cime, Italy (2024)",
+      "placeYear": "",
+      "alt": "A hiker with a walking pole facing tall rocky towers."
+    },
+    "P09": {
+      "sourceFile": "Screenshot_20260310_230836_Gallery(1).jpg",
+      "caption": "Morskie Oko, Poland (2022)",
+      "placeYear": "",
+      "alt": "A hiker stepping between boulders beside a lake below snowy slopes."
+    },
+    "P11": {
+      "sourceFile": "20220515_145924(1).jpg",
+      "caption": "Hincovo Tarn, Slovakia (2022)",
+      "placeYear": "",
+      "alt": "A partly frozen lake surrounded by broad snow-covered mountain slopes."
+    },
+    "P14": {
+      "sourceFile": "20220704_140212(1).jpg",
+      "caption": "Rysy, Poland (2022)",
+      "placeYear": "",
+      "alt": "An elevated view over rocky mountain ridges and two blue lakes."
+    },
+    "P16": {
+      "sourceFile": "snow-entry.png",
+      "caption": "Zakopane, Poland (2022)",
+      "placeYear": "",
+      "alt": "A hiker in a green T-shirt and blue shorts walking away up a snowy mountain trail."
+    },
+    "P17": {
+      "sourceFile": "IMG_20260608_163649.jpg",
+      "caption": "Ko Tao, Thailand (2026)",
+      "placeYear": "",
+      "alt": "A hiker sitting on rocks above two turquoise bays and densely wooded tropical hills."
+    },
+    "P18": {
+      "sourceFile": "IMG_20260623_152640.jpg",
+      "caption": "Dong Van, Vietnam (2026)",
+      "placeYear": "",
+      "alt": "A hiker sitting on a projecting rock ledge above green mountains and a deep valley under cloudy skies."
+    }
+  }
+}
